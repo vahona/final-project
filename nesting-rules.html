@@ -8,13 +8,12 @@
     </title>
   </head>
   <body>
-  <header>
-    <h1>
-      Nesting rules
-    </h1>
-    <a href="list-of-html-rules"> Go back to the list rules</a>
-  </header>
-    <main>
+    <header>
+      <h1>
+        Nesting rules
+      </h1>
+      <a href="list-of-html-rules"> Go back to the list rules</a>
+    </header>
       <section>
         <h2>
           Description
@@ -30,14 +29,19 @@
         </h3>
         <ul>
           <li>
-            The tag opened most recently is always the next tag to close.
+            The <mark>tag</mark> opened most recently is always the next tag to close.
           </li>
           <li>
-            An HTML element usually consists of a start tag and an end tag, with the content inserted in between.
+            An HTML element usually consists of a start <mark>tag</mark> and an end tag, with the content inserted in between.
           </li>
           <li>
             Empty elements do not have an end tag such as (<code>&lt;img&gt;</code>) element.
           </li>
+          <li>
+            Make sure that you put <mark>element</mark> inside of another element properly.
+          </li>
+        </ul>
+      </section>
       <section>
         <h3>
           Do not do this!
@@ -46,17 +50,28 @@
             &lt;html lang="en"&gt;
               &lt;head&gt;
                 &lt;meta charset="UTF-8"&gt;
-                &lt;meta name="viewport"&gt; content="width=device-width">
-                <title>
+                &lt;meta name="viewport"&gt; content="width=device-width"&gt;
+                &lt;title&gt;
                   hhhhhhhhh
-                </head>
-              </title>
-              </html>
-          <code>
+                &lt;/head&gt;
+              &lt;/title&gt;
+              &lt;/html&gt;
         </pre>
-        </p>
+        <h3>
+          Instead do this
+        </h3>
+        <pre>
+          &lt;html lang="en"&gt;
+            &lt;head&gt;
+              &lt;meta charset="UTF-8"&gt;
+              &lt;meta name="viewport"&gt; content="width=device-width"&gt;
+              &lt;title&gt;
+                hhhhhhhhh
+              &lt;/title&gt;
+            &lt;/head&gt;
+          &lt;/html&gt;
+        </pre>
       </section>
-    </main>
   </body>
 </html>
          
