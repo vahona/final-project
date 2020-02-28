@@ -4,7 +4,7 @@
 
   **Development**
 
-  There are some way that you can open this website:
+  There are some ways that you can open this website:
 
    First of all, you will see a homepage which is the home of the website. It contains some links. So you have to click those links if you want to read the detail of the topic.
 
@@ -14,7 +14,7 @@
   * [List of all element page](list-of-elements.html)
   * [Tips for writing html page](tips-for-writing.html)
 
-  Apart from those links, there are some another links you probably find in each one of these page when you open them, so jus click the link if you want more detail.
+  Apart from those links, there are some another links you probably find in each one of these pages when you open them, so jus click the link if you want more detail.
    
    Then you can communicate with the Author by these next links, especially If you have any comments or question;
 
